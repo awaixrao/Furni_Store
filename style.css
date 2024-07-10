@@ -1,0 +1,145 @@
+.hero {
+    background-color: #3b5d50;
+    /* height: 77vh; */
+}
+
+.nav-bg {
+    background-color: #3b5d50;
+
+}
+
+.hero-h1 {
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.text-op {
+    opacity: .4;
+    color: #ffffff !important;
+}
+
+
+.btn1{
+    height: 30px;
+    width: 30px;
+    background-color: #d6d1d1;
+    color: black;
+}
+
+.btn1-primary{
+    background-color: blue;
+}
+
+
+.btn.btn-secondary {
+    color: #2f2f2f;
+    background: #f9bf29;
+    border-color: #f9bf29;
+    border-radius: 30px;
+    border-width: 2px;
+    padding: 12px 30px;
+    font-weight: 600;
+}
+
+.btn.custom-btn {
+    background: transparent;
+    border-width: 2px;
+    border-radius: 30px;
+    border-color: rgba(255, 255, 255, 0.3);
+    color: #2f2f2f;
+    font-weight: 600;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: #ffffff;
+
+}
+
+.btn.custom-btn:hover {
+    transition: all .5s ease;
+    opacity: 1;
+    border-color: white;
+    color: white;
+}
+
+
+.btn.custom-btn .nothover {
+    background: transparent;
+    border-width: 2px;
+    border-radius: 30px;
+    border-color: rgba(255, 255, 255, 0.3);
+    color: #2f2f2f;
+    font-weight: 600;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: #ffffff;
+
+
+}
+
+
+.mybtn {
+    background:#2f2f2fe5; 
+    border-width: 2px;
+    border-radius: 30px;
+    border:1px solid #2f2f2f;    ;
+    color: #1b0404;
+    font-weight: 600;
+    padding: 12px 30px;
+    border-radius: 30px !important;
+    color: #d6d1d1 !important;
+    height: 50px;
+    transition: all 0.7 ease;
+    width: 130px;
+}
+
+.mybtn.hovered:hover {
+    background:#2f2f2f; 
+    border-width: 2px;
+    border-radius: 30px;
+    border:1px solid #2f2f2fdc;    ;
+    color: #1b0404dc;
+    font-weight: 600;
+    padding: 12px 30px;
+    border-radius: 30px !important;
+    color: #d6d1d1 !important;
+    height: 50px;
+    transition: all 0.7 ease;
+    width: 130px;
+}
+
+
+.afterimg::after {
+    content: "";
+    position: relative;
+
+    width: 355px;
+    height: 717px;
+    background-image: url('https://cdn.vectorstock.com/i/500p/54/71/dot-grid-background-seamless-pattern-vector-42065471.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    margin-right: 278px;
+
+
+}
+
+.footer {
+      background-color: #3b5d50;
+      color: #ffffff;
+      padding: 50px 0;
+    }
+    .footer-links {
+      list-style: none;
+      padding-left: 0;
+    }
+    .footer-links li {
+      margin-bottom: 10px;
+    }
+    .footer-links a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+    .footer-links a:hover {
+      text-decoration: underline;
+    }
